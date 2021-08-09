@@ -31,10 +31,10 @@ Os modelos de bicicletas: tradicional e elétrica.
 
 O sistema disponibiliza área administrativa, com login na mesma página dos demais usuários, com 4 funcionalidades:
 
-1) Ativação de plano:  ocorre na retirada da bike 
-2) Desativação de plano: ocorre na entrega da bike
-3) Listagem de usuários
-4) Listagem de planos inativos
+1. Ativação de plano: ocorre na retirada da bike
+2. Desativação de plano: ocorre na entrega da bike
+3. Listagem de usuários
+4. Listagem de planos inativos
 
 Obs: Se houver multa por atraso o pagamento é feito na loja, antes da desativação do plano.
 
@@ -63,7 +63,7 @@ Sequelize ORM
 Clonar o projeto
 
 ```
-git clone https://github.com/jonatas-bento/MOOVEBIKE.git
+git clone https://github.com/ANNEBORTOLI/MOOVEBIKE.git
 ```
 
 Criar arquivo .env na raiz do projeto e configurar as variáveis de ambiente
@@ -103,21 +103,20 @@ Navegador (xxxx: porta configurada na variável de ambiente.)
 ```
 localhost:xxxx
 ```
+
 ## Projeto
 
 [Clique neste link](http://moovebike.app.br/)
 
 ## Membros
 
-- [Anne Bortoli](https://github.com/ANNEBORTOLI) 
-- [Flávio Sipoli](https://github.com/flavio-sipoli) 
-- [Flúvio Lima](https://github.com/Lyebert) 
-- [Jonatas Bento](https://github.com/jonatas-bento) 
-- [Lila An](https://github.com/lilex82) 
+- [Anne Bortoli](https://github.com/ANNEBORTOLI)
+- [Flávio Sipoli](https://github.com/flavio-sipoli)
+- [Flúvio Lima](https://github.com/Lyebert)
+- [Jonatas Bento](https://github.com/jonatas-bento)
+- [Lila An](https://github.com/lilex82)
 - [Lourene Schueler](https://github.com/Lourene-MCSchueler)
 
 ## Captura da página inicial
 
 ![Alt text](https://github.com/jonatas-bento/MOOVEBIKE/blob/main/screenshot/moovebike.png)
-
-
