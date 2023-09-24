@@ -1,5 +1,7 @@
 # MOOVEBIKE
 
+[Essa aplicação está disponóvel nessa url!](https://moovebike-2a70d5096f57.herokuapp.com/)
+
 ![Alt text](https://github.com/jonatas-bento/MOOVEBIKE/blob/main/screenshot/moovebike.png)
 
 Projeto final do curso de Desenvolvimento Web Full Stack da instituição Digital House Coding School.(https://www.digitalhouse.com/br/)
@@ -112,7 +114,7 @@ localhost:xxxx
 
 ## Projeto
 
-[Clique neste link](http://moovebike.app.br/)
+[Clique neste link](https://moovebike-2a70d5096f57.herokuapp.com/)
 
 ## Membros
 
