@@ -66,39 +66,43 @@ Clonar o projeto
 git clone https://github.com/ANNEBORTOLI/MOOVEBIKE.git
 ```
 
-Criar arquivo .env na raiz do projeto e configurar as variáveis de ambiente
-(A descrição das variáveis necessárias estão no arquivo .env.example)
+Criar arquivo **.env** na raiz do projeto e configurar as variáveis de ambiente
+(A descrição das variáveis necessárias estão no arquivo **.env.example**)
 
-Instalar os pacotes com npm
+- Instalar os pacotes com npm
 
 ```
 $ npm install
 ```
 
-Conectar o banco de dados e criar um schema com o nome moove_bike
+- Conectar o banco de dados e criar um schema com o nome moove_bike.
 
-Executar migration
+- Executar migration
 
 ```
 $ npx sequelize-cli db:migrate
 ```
 
-Cadastrar os administradores no arquivo ('src', 'database', 'seeders', '20210705135420-demo-admins').
-A senha deve estar criptografada. Ver arquivo ('src', 'libs', 'crypto').
+- Cadastrar os administradores no arquivo ('src', 'database', 'seeders', '20210705135420-demo-admins').
+  Coloque nome, email e a senha-criptografada que desejar no arquivo acima.
+  Atenção: A senha deve estar criptografada. Ver arquivo ('src', 'libs', 'crypto').
+  Esse aquivo contém o código que faz a criptografia da senha, portanto basta printar o método hash(sua_senha) e rodar em seu terminal: `node crypto.js`, copiar a senha criptografada e usá-la no arquivo de seed.
 
-Popular o banco de dados
+  Se preferir, utilize o usuário administrador que já configurado (olhar o arquivo).
+
+- Popular o banco de dados
 
 ```
 $ npx sequelize-cli db:seed:all
 ```
 
-Executar a aplicação localmente
+- Executar a aplicação localmente
 
 ```
 $ npm run dev
 ```
 
-Navegador (xxxx: porta configurada na variável de ambiente.)
+- Navegador (xxxx: porta configurada na variável de ambiente.)
 
 ```
 localhost:xxxx

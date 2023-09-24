@@ -19,7 +19,7 @@ module.exports = {
         unique: true,
         validate: {
           isEmail: true
-        }
+        } 
       },
       admin: {
         type: Sequelize.BOOLEAN,
