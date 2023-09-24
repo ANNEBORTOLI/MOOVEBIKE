@@ -7,7 +7,8 @@
     "dev": "nodemon -r dotenv-safe/config ./bin/www",
     "sequelize": "npx sequelize",
     "migrate": "npx sequelize db:migrate",
-    "seed": "npx sequelize db:seed:all"
+    "seed": "npx sequelize db:seed:all",
+    "build": "sequelize db:migrate db:seed --env production"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
