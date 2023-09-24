@@ -1,5 +1,9 @@
 # MOOVEBIKE
 
+## Captura da página inicial
+
+![Alt text](https://github.com/jonatas-bento/MOOVEBIKE/blob/main/screenshot/moovebike.png)
+
 Projeto final do curso de Desenvolvimento Web Full Stack da instituição Digital House Coding School.(https://www.digitalhouse.com/br/)
 
 MOOVEBIKE comercializa planos de aluguel de bicicletas pelo web site com entrega e recebimento das bicicletas na rede de lojas físicas.
@@ -120,7 +124,3 @@ localhost:xxxx
 - [Jonatas Bento](https://github.com/jonatas-bento)
 - [Lila An](https://github.com/lilex82)
 - [Lourene Schueler](https://github.com/Lourene-MCSchueler)
-
-## Captura da página inicial
-
-![Alt text](https://github.com/jonatas-bento/MOOVEBIKE/blob/main/screenshot/moovebike.png)
